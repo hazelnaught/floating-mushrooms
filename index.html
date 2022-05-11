@@ -1,0 +1,165 @@
+<html>
+  <head>
+    <title>Floating Mushrooms</title>
+
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="script.js"></script>
+
+  </head>
+
+  <body>
+        <video id="video" autoplay muted playsinline></video>
+    
+    <a-scene vr-mode-ui="enabled: false">
+
+<!--
+      <a-entity
+        id="camera= active: true"
+        wasd-controls
+        camera
+        look-controls
+        position="0 1.6 5"
+      >
+      </a-entity> 
+-->
+
+      <a-entity id="rig" position="8 1.6 5">
+        <a-entity
+          id="camera= active: true"
+          wasd-controls
+          camera
+          position="8 1.6 0"
+                
+        ></a-entity>
+
+      </a-entity>
+
+      <a-entity
+        obj-model="obj: https://cdn.glitch.global/8789cb89-e650-4269-a753-97d8d3aa0aae/1.obj?v=1649859256066"
+        position="9.02 -10.84 -3.73"
+        scale="0.02 0.02 0.02"
+        material="color: #9c9c9c; wireframe: true; wireframeLinewidth: 30"
+        rotation="0 0 0"
+        animation="property: rotation; to: 0 360 0; loop: true; dur: 35000"
+      ></a-entity>
+
+      <a-entity
+        obj-model="obj: https://cdn.glitch.global/8789cb89-e650-4269-a753-97d8d3aa0aae/2.obj?v=1649859254581"
+        rotation="0 0 0"
+        scale="0.025 0.025 0.025"
+        position="12.95123 15 -8.81869"
+        material="color: #878787; wireframe: true; wireframeLinewidth: 30"
+        animation="property: rotation; to: 0 360 0; loop: true; dur: 35000"
+
+
+      ></a-entity>
+
+      <a-entity
+        obj-model="obj: https://cdn.glitch.global/8789cb89-e650-4269-a753-97d8d3aa0aae/3.obj?v=1649859254731"
+        scale="0.02 0.02 0.02"
+        position="12.71749 -35.74496 15.1529"
+        rotation="0 0 90"
+        material="color: #9e9e9e; wireframe: true; wireframeLinewidth: 60"
+        animation="property: rotation; to: 0 360 90; loop: true; dur: 27000"
+
+      ></a-entity>
+
+      <a-entity
+        obj-model="obj: https://cdn.glitch.global/8789cb89-e650-4269-a753-97d8d3aa0aae/4.obj?v=1649859255154"
+        scale="0.02 0.02 0.02"
+        position="25.863 -20.925 10.925"
+        rotation="0 0 90"
+        material="color: #a3a3a3; wireframe: true; wireframeLinewidth: 40"
+        animation="property: rotation; to: 0 360 90; loop: true; dur: 35000"
+      ></a-entity>
+
+      <a-entity
+        obj-model="obj: https://cdn.glitch.global/8789cb89-e650-4269-a753-97d8d3aa0aae/5.obj?v=1649859254378"
+        scale="0.02 0.02 0.02"
+        position="0.5637 -20.09386 1.16069"
+        material="color: #a6a6a6; wireframe: true; wireframeLinewidth: 60"
+        rotation="0 0 0"
+        animation="property: rotation; to: 0 360 0; loop: true; dur: 28000"
+      ></a-entity>
+
+      <a-entity
+        obj-model="obj: https://cdn.glitch.global/8789cb89-e650-4269-a753-97d8d3aa0aae/6.obj?v=1649859254795"
+        scale="0.025 0.025 0.025"
+        rotation="0 50 0"
+        material="color: #949494; wireframe: true; wireframeLinewidth: 50"
+        animation="property: rotation; to: 0 360 0; loop: true; dur: 40000"
+      ></a-entity>
+
+      <a-entity
+        obj-model="obj: https://cdn.glitch.global/8789cb89-e650-4269-a753-97d8d3aa0aae/2.obj?v=1649859254581"
+        rotation="0 0 0"
+        scale="0.025 0.025 0.025"
+        position="22.66502 15.70486 -0.16145"
+        material="color: #878787; wireframe: true; wireframeLinewidth: 30"
+        animation="property: rotation; to: 0 360 0; loop: true; dur: 30000"
+      ></a-entity>
+
+      <a-entity
+        obj-model="obj: https://cdn.glitch.global/8789cb89-e650-4269-a753-97d8d3aa0aae/8.obj?v=1649871242814"
+        material="color: #c2c2c2; wireframe: true; wireframeLinewidth: 50"
+        scale="0.02 0.02 0.02"
+        position="-21.575 -8.913 -9.312"
+        rotation="0 0 0"
+        animation="property: rotation; to: 0 360 0; loop: true; dur: 40000"
+      ></a-entity>
+
+      <a-entity
+        obj-model="obj: https://cdn.glitch.global/8789cb89-e650-4269-a753-97d8d3aa0aae/9.obj?v=1649871243149"
+        scale="-0.028 0.028 0.028"
+        position="-1.850 -3.779 27.687"
+        rotation="0 0 90"
+        material="color: #8c8c8c; wireframe: true; wireframeLinewidth: 100"
+        animation="property: rotation; to: 0 360 90; loop: true; dur: 36000"
+      ></a-entity>
+
+      <a-entity
+        obj-model="obj: https://cdn.glitch.global/8789cb89-e650-4269-a753-97d8d3aa0aae/10.obj?v=1649871757455"
+        scale="0.025 0.025 0.025"
+        rotation="0 0 90"
+        position="-10.676 -1.046 7.156"
+        material="color: #969696; wireframe: true; wireframeLinewidth: 80"
+        animation="property: rotation; to: 0 360 90; loop: true; dur: 29000"
+      ></a-entity>
+
+      <a-entity
+        obj-model="obj: https://cdn.glitch.global/8789cb89-e650-4269-a753-97d8d3aa0aae/11.obj?v=1649871757008"
+        scale="0.025 0.025 0.025"
+        rotation="0 0 90"
+        position="20.216 -25.807 -5.270"
+        material="color: #9e9e9e; wireframe: true; wireframeLinewidth: 80"
+        animation="property: rotation; to: 0 360 90; loop: true; dur: 38000"
+      ></a-entity>
+      <!--
+      <a-plane
+        position="0 0 -5"
+        rotation="-90 0 0"
+        width="6"
+        height="6"
+        opacity="0"
+      ></a-plane> 
+-->
+      <!--
+    <a-sky
+        src="https://cdn.glitch.global/8789cb89-e650-4269-a753-97d8d3aa0aae/Panorama3.png?v=1649858981242"
+      ></a-sky>
+      -->
+      
+<a-camera>
+
+        <!--<a-entity
+          cursor
+          position="0 0 -1"
+          geometry="primitive: ring; radiusInner: 0.02; radiusOuter: 0.03"
+          material="color: gold; shader: flat"
+        >
+        </a-entity> -->
+</a-camera>
+      
+    </a-scene>
+  </body>
+</html>
