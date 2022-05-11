@@ -1,5 +1,5 @@
 This AR experience is optimal for mobile phones.
-Better to use it outdoors, or large space rather than in a small room.
+Better to use it outdoors, or in a large space rather than in a small room.
 
 preview page : 
 https://mighty-thoracic-land.glitch.me/
